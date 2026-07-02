@@ -1,6 +1,6 @@
 # MONARCH End User License Agreement
 
-DRAFT - not legal advice; have an attorney review before charging money.
+DRAFT - for attorney review; not legal advice.
 
 Last updated: July 1, 2026
 
