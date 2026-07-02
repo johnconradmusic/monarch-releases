@@ -4,7 +4,7 @@ DRAFT - for attorney review; not legal advice.
 
 Last updated: July 1, 2026
 
-This Privacy Policy explains what information MONARCH handles when you install, activate, and use the software. MONARCH is designed first as a local stage-rig application: your show files, stems, lyrics, charts, and most operational data stay on your computer unless you choose to sync or send them elsewhere.
+This Privacy Policy explains what information MONARCH handles when you install, activate, and use the software. MONARCH is designed first as a local show-control application: your show files, stems, lyrics, charts, and most operational data stay on your computer unless you choose to sync or send them elsewhere.
 
 ## 1. Information Stored Locally
 
