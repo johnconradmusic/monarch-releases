@@ -1,0 +1,83 @@
+name: Bug report
+description: Something in MONARCH didn't work the way it should have.
+title: "[bug] "
+labels: ["bug", "beta-feedback"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for filing a bug. The more concrete the repro, the faster the fix.
+        If MONARCH crashed, please attach the most recent files from
+        `~/Library/MONARCH/logs/` (both `MONARCH-*.log` and any `MONARCH-crash-*.log`).
+
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: What happened?
+      description: One or two sentences describing what went wrong.
+      placeholder: "e.g. Clicking GO with a song that has a missing media file silently fails instead of showing a preflight blocker."
+    validations:
+      required: true
+
+  - type: textarea
+    id: expected
+    attributes:
+      label: What did you expect?
+      placeholder: "e.g. GO should refuse to start and the preflight strip should show 'Missing media'."
+    validations:
+      required: true
+
+  - type: textarea
+    id: repro
+    attributes:
+      label: Steps to reproduce
+      description: Numbered steps. If you can't reliably reproduce, say so — pattern is still useful.
+      placeholder: |
+        1. Open a show with a song whose audio file was deleted from disk
+        2. Click on that song in the setlist
+        3. Press GO
+    validations:
+      required: true
+
+  - type: input
+    id: version
+    attributes:
+      label: MONARCH version
+      description: From the About dialog (Help → About). The bug-report link pre-fills this.
+      placeholder: "0.9.0-beta"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: edition
+    attributes:
+      label: Edition
+      options:
+        - Sunday
+        - Stage
+        - Not sure
+    validations:
+      required: true
+
+  - type: input
+    id: os
+    attributes:
+      label: macOS version
+      placeholder: "macOS 14.5 (Apple Silicon)"
+    validations:
+      required: true
+
+  - type: textarea
+    id: logs
+    attributes:
+      label: Logs (attach files or paste relevant excerpts)
+      description: |
+        Drag-and-drop `MONARCH-*.log` from `~/Library/MONARCH/logs/` into this box.
+        If the issue caused a crash, also attach the matching `MONARCH-crash-*.log`.
+      placeholder: "Paste log excerpts here or attach the files above this box."
+
+  - type: textarea
+    id: extra
+    attributes:
+      label: Anything else?
+      description: Screenshots, video, what you were trying to accomplish, anything that helps.

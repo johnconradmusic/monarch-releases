@@ -1,0 +1,52 @@
+name: Feature request
+description: Suggest a new feature or an improvement to an existing one.
+title: "[feature] "
+labels: ["enhancement", "beta-feedback"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for the suggestion. Concrete use cases beat abstract feature lists —
+        tell us the moment in your workflow where MONARCH doesn't do what you need.
+
+  - type: textarea
+    id: problem
+    attributes:
+      label: What's the situation?
+      description: When does this come up? What are you trying to accomplish?
+      placeholder: "e.g. Mid-service, I need to skip from the worship set straight to the response song without losing the count-in."
+    validations:
+      required: true
+
+  - type: textarea
+    id: proposal
+    attributes:
+      label: What would solve it?
+      description: Your best guess at the feature. It's fine if you're not sure — describe the outcome you want.
+      placeholder: "e.g. A 'Jump to song + preserve count-in' option, or a quick-action button that does both."
+    validations:
+      required: true
+
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Workarounds you've tried (if any)
+      placeholder: "e.g. Pressing STOP, clicking the target song, then pressing GO — but I lose the count-in and the band is left hanging."
+
+  - type: dropdown
+    id: edition
+    attributes:
+      label: Which edition is this for?
+      options:
+        - Sunday
+        - Stage
+        - Both
+        - Not sure
+    validations:
+      required: true
+
+  - type: textarea
+    id: extra
+    attributes:
+      label: Anything else?
+      description: Reference material, prior art in other tools, etc.
