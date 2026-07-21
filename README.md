@@ -6,7 +6,7 @@ Public release downloads, update metadata, quickstart docs, and beta feedback fo
 
 | Version | Download | SHA-256 |
 |---|---|---|
-| 0.12.1-beta | [MONARCH-0.12.1-beta-macOS-universal.dmg](https://github.com/johnconradmusic/monarch-releases/releases/download/v0.12.1-beta/MONARCH-0.12.1-beta-macOS-universal.dmg) | [checksum](https://github.com/johnconradmusic/monarch-releases/releases/download/v0.12.1-beta/MONARCH-0.12.1-beta-macOS-universal.dmg.sha256) |
+| 0.13.0-beta.2 | [MONARCH-0.13.0-beta.2-macOS-universal.dmg](https://github.com/johnconradmusic/monarch-releases/releases/download/v0.13.0-beta.2/MONARCH-0.13.0-beta.2-macOS-universal.dmg) | [checksum](https://github.com/johnconradmusic/monarch-releases/releases/download/v0.13.0-beta.2/MONARCH-0.13.0-beta.2-macOS-universal.dmg.sha256) |
 
 ## Quickstart
 

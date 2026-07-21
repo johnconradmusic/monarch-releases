@@ -1,0 +1,22 @@
+<?xml version="1.0" standalone="yes"?>
+<rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
+    <channel>
+        <title>MONARCH</title>
+        <item>
+            <title>MONARCH 0.13.0-beta.2</title>
+            <pubDate>Sun, 19 Jul 2026 12:16:40 -0500</pubDate>
+            <link>https://github.com/johnconradmusic/monarch-releases/releases</link>
+            <sparkle:channel>beta</sparkle:channel>
+            <sparkle:version>2</sparkle:version>
+            <sparkle:shortVersionString>0.13.0-beta.2</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.4</sparkle:minimumSystemVersion>
+            <description sparkle:format="markdown"><![CDATA[# MONARCH 0.13.0-beta.2
+
+- Adds signed in-app beta updates.
+- Prevents update checks and relaunches during playback.
+- Improves macOS release metadata and installation packaging.
+]]></description>
+            <enclosure url="https://github.com/johnconradmusic/monarch-releases/releases/download/v0.13.0-beta.2/MONARCH-0.13.0-beta.2-macOS-universal.dmg" length="50788947" type="application/octet-stream" sparkle:edSignature="q7aJL1CijworSQceRbZ4HFQV3CZJWp0MILIa3f7JIcUktW/y/USL1MsBKbIVAeO4FeArtbpk+0nzty+J76b3Dw=="/>
+        </item>
+    </channel>
+</rss>

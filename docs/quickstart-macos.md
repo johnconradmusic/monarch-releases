@@ -51,6 +51,6 @@ Before rehearsal, practice the safety path:
 2. Press `STOP` to stop at the saved song start.
 3. Press `PANIC` to stop playback and block accidental restart.
 4. Use `Recover From Panic` only after audio, MIDI, and the band are ready.
-5. Run `Show ready` / preflight before the set starts.
+5. Confirm the current song has no missing files or unavailable outputs.
 
 For show-critical use, keep a backup plan: a second rig, exported show package, printed setlist, and a manual audio fallback.

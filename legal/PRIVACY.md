@@ -38,13 +38,14 @@ If you configure or use optional integrations, MONARCH may exchange data with th
 - Dropbox library sync may read folder names, song metadata sidecars, audio/chart file metadata, and sync tokens needed for your Dropbox account.
 - LRCLIB lyric lookup may send song title, artist, album, or duration to search for lyrics.
 - GitHub links may open release pages, documentation, or issue forms in your browser.
+- If you explicitly enable anonymous crash reports, a configured Sentry endpoint receives the limited crash-occurrence payload described below. As with any web request, the provider may process transport metadata such as the source IP address.
 - Operating-system services may handle file pickers, crash logs, networking, audio devices, MIDI devices, and URL opening.
 
 Those services are governed by their own privacy policies.
 
 ## 5. Diagnostics and Bug Reports
 
-MONARCH may write local logs and crash markers. The app may help you reveal a log file or open a pre-filled GitHub issue, but it does not automatically upload diagnostics. If you paste logs into an issue or send them for support, those logs may contain machine names, file paths, device names, show/song names, plugin state, error messages, and other troubleshooting details.
+MONARCH writes local logs and crash markers. Automatic crash reporting is off by default and requires an explicit preference. When enabled and a reporting endpoint is present in the signed build, the next launch sends only the app version, operating-system name, and the fact that a crash occurred. The report payload does not include the crash log, stack trace, show/song names, paths, lyrics, audio, device names, or machine identifiers. The app may also help you reveal a local log file or open a pre-filled GitHub issue; anything you share manually may contain machine names, file paths, device names, show/song names, plugin state, error messages, and other troubleshooting details.
 
 Review diagnostics before sharing them publicly.
 
